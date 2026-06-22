@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohan Chess Academy</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        color:#333;
+        line-height:1.6;
+    }
+
+    header{
+        background:#111;
+        color:white;
+        text-align:center;
+        padding:25px;
+    }
+
+    header h1{
+        color:gold;
+        font-size:40px;
+    }
+
+    nav{
+        background:#222;
+        text-align:center;
+        padding:15px;
+        position:sticky;
+        top:0;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 20px;
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        color:gold;
+    }
+
+    section{
+        padding:50px 20px;
+    }
+
+    h2{
+        text-align:center;
+        margin-bottom:20px;
+        color:#0b5394;
+    }
+
+    /* Home Section */
+    .players{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:25px;
+        margin-top:25px;
+    }
+
+    .card{
+        background:white;
+        width:280px;
+        border-radius:12px;
+        overflow:hidden;
+        box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+        text-align:center;
+    }
+
+    .card img{
+        width:100%;
+        height:320px;
+        object-fit:cover;
+    }
+
+    .card h3{
+        padding:10px;
+        color:#222;
+    }
+
+    .content-box{
+        max-width:900px;
+        margin:auto;
+        background:white;
+        padding:25px;
+        border-radius:12px;
+        box-shadow:0px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    ul{
+        margin-left:25px;
+    }
+
+    footer{
+        background:#111;
+        color:white;
+        text-align:center;
+        padding:15px;
+        margin-top:20px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>♟ Mohan Chess Academy ♟</h1>
+    <p>Learn • Practice • Become a Champion</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Academy</a>
+    <a href="#admits">Admits</a>
+    <a href="#coaches">Coaches</a>
+    <a href="#achievers">Achievers</a>
+	<a href="#game">Game</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <h2>Home</h2>
+
+    <div class="players">
+
+        <div class="card">
+            <img src="images/magnus.jpg" alt="Magnus Carlsen">
+            <h3>Magnus Carlsen</h3>
+        </div>
+
+        <div class="card">
+            <img src="images/vishy.jpg" alt="Viswanathan Anand">
+            <h3>Viswanathan Anand</h3>
+        </div>
+
+        <div class="card">
+            <img src="images/pragg.jpg" alt="Praggnanandhaa">
+            <h3>R. Praggnanandhaa</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Academy</h2>
+
+    <div class="content-box">
+        <p>
+            <strong>Mohan Chess Academy</strong> was opened in <strong>2026</strong>.
+        </p>
+        <br>
+
+        <p>
+            This academy was created by the
+            <strong>Sri Paramakalyani College 2024–2027 Chess Team</strong>.
+        </p>
+
+        <br>
+
+        <p>
+            Our mission is to develop chess skills among young players and prepare them for district, state, national, and international competitions.
+        </p>
+    </div>
+</section>
+
+<!-- ADMITS -->
+<section id="admits">
+    <h2>Admits</h2>
+
+    <div class="content-box">
+        <ul>
+            <li>U04 Category</li>
+            <li>U10 Category</li>
+            <li>U15 Category</li>
+            <li>U18 Category</li>
+            <li>U25 Category</li>
+        </ul>
+    </div>
+</section>
+
+<!-- COACHES -->
+<section id="coaches">
+    <h2>Coaches</h2>
+
+    <div class="content-box">
+
+        <h3>Akilan</h3>
+        <p>FIDE Rating: 2000</p>
+        <p>Intermediate Player Coaching</p>
+
+        <hr><br>
+
+        <h3>Karuthapandi</h3>
+        <p>FIDE Rating: 1516</p>
+        <p>Beginners Coaching</p>
+
+        <hr><br>
+
+        <h3>Mohanan</h3>
+        <p>GM Player</p>
+        <p>Advanced Level Coach</p>
+
+    </div>
+</section>
+
+<!-- ACHIEVERS -->
+<section id="achievers">
+    <h2>Achievers</h2>
+
+    <div class="content-box">
+
+        <ul>
+            <li><strong>Praveen</strong> – State Level Achiever</li>
+            <li><strong>Muthusinthan</strong> – National Level 1st Place</li>
+            <li><strong>Assim</strong> – World Top 3 Player</li>
+        </ul>
+
+    </div>
+</section>
+<!---Game-->
+<section id="game">
+<h2>Game</h2>
+<link="https://lichess.org/">
+</section>
+<footer>
+    <p>© 2026 Mohan Chess Academy | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
